@@ -1,0 +1,20 @@
+<ul class="demo-list-icon mdl-list">
+  <li class="mdl-list__item" ng-repeat="student in :: students">
+    <span class="mdl-list__item-primary-content">
+      <i class="material-icons mdl-list__item-avatar md-48">person</i>
+      {{student.firstName}}
+
+      {{student.lastName}}
+      {{student.faculty}}
+      {{student.year}}
+      {{student.email}}
+      {{student.phone}}
+    </span>
+  </li>
+</ul>
+
+
+<li ng-repeat="tax in ::totalFields.taxes">
+  <p class="tax">{{::'labelTotalTax' | translate}} {{::tax.tax | number}}% </p>
+  <p><span>{{::tax.totalTax | number}} {{::totalFields.currencyIso}}</span></p>
+</li>
