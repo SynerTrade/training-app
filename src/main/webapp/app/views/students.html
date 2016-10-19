@@ -1,20 +1,37 @@
-<ul class="demo-list-icon mdl-list">
-  <li class="mdl-list__item" ng-repeat="student in :: students">
-    <span class="mdl-list__item-primary-content">
-      <i class="material-icons mdl-list__item-avatar md-48">person</i>
-      {{student.firstName}}
+<div class="studentsGrid">
+  <div class="mdl-grid gridHeader">
+    <div class="mdl-cell mdl-cell--1-col">
+      <img class="mdl-layout-icon icon" src="resources/user.png"/>
+      <p>First name</p>
+    </div>
+    <div class="mdl-cell mdl-cell--1-col">
+      <img class="mdl-layout-icon icon" src="resources/user.png"/>
+      <p>Last name</p>
+    </div>
+    <div class="mdl-cell mdl-cell--1-col">
+      <img class="mdl-layout-icon icon" src="resources/university.png"/>
+      <p>University</p>
+    </div>
+    <div class="mdl-cell mdl-cell--1-col">
+      <img class="mdl-layout-icon icon" src="resources/calendar.png"/>
+      <p>Year</p>
+    </div>
+    <div class="mdl-cell mdl-cell--1-col">
+      <img class="mdl-layout-icon icon" src="resources/email.png"/>
+      <p>Email</p>
+    </div>
+    <div class="mdl-cell mdl-cell--1-col">
+      <img class="mdl-layout-icon icon" src="resources/phone.png"/>
+      <p>Phone</p>
+    </div>
+  </div>
 
-      {{student.lastName}}
-      {{student.faculty}}
-      {{student.year}}
-      {{student.email}}
-      {{student.phone}}
-    </span>
-  </li>
-</ul>
-
-
-<li ng-repeat="tax in ::totalFields.taxes">
-  <p class="tax">{{::'labelTotalTax' | translate}} {{::tax.tax | number}}% </p>
-  <p><span>{{::tax.totalTax | number}} {{::totalFields.currencyIso}}</span></p>
-</li>
+  <div class="mdl-grid gridRow" ng-repeat="student in :: students">
+    <div class="mdl-cell mdl-cell--1-col user">{{student.firstName}}</div>
+    <div class="mdl-cell mdl-cell--1-col user">{{student.lastName}}</div>
+    <div class="mdl-cell mdl-cell--1-col">{{student.faculty}}</div>
+    <div class="mdl-cell mdl-cell--1-col">{{student.year}}</div>
+    <div class="mdl-cell mdl-cell--1-col">{{student.email}}</div>
+    <div class="mdl-cell mdl-cell--1-col">{{student.phone}}</div>
+  </div>
+</div>

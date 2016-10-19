@@ -8791,19 +8791,16 @@ body {
 @media screen and (min-width: 768px) {
   /* line 79, main.scss */
   .container {
-    max-width: 730px;
     background-color: white;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 300px;
-    margin: auto;
+    /* position: absolute;
+     top: 85px;
+     left: 0;
+     right: 0;
+     margin: auto;*/
   }
 
   /* Remove the padding we set earlier */
-  /* line 94, main.scss */
+  /* line 91, main.scss */
   .header,
   .marketing,
   .footer {
@@ -8812,18 +8809,66 @@ body {
   }
 
   /* Space out the masthead */
-  /* line 99, main.scss */
+  /* line 96, main.scss */
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 103, main.scss */
+  /* line 100, main.scss */
   .jumbotron {
     border-bottom: 0;
   }
 }
-/* line 109, main.scss */
+/* line 106, main.scss */
+.traingApp .container {
+  transition: 1s ease;
+  background-color: white;
+  margin-top: 30px;
+}
+/* line 111, main.scss */
 .traingApp .mdl-layout__header {
   background-color: #b20838;
+}
+/* line 115, main.scss */
+.traingApp .studentsGrid .gridHeader .mdl-cell {
+  width: 15%;
+  background: none;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 43px;
+}
+/* line 121, main.scss */
+.traingApp .studentsGrid .gridHeader .mdl-cell p {
+  font-weight: bold;
+  font-size: 18px;
+  color: #b20838;
+}
+/* line 126, main.scss */
+.traingApp .studentsGrid .gridHeader .mdl-cell .icon {
+  height: 45px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/* line 132, main.scss */
+.traingApp .studentsGrid .gridRow .mdl-cell {
+  background-size: 200% 200%;
+  background-image: linear-gradient(to top, #b20838 50%, #bdbdbd 50%);
+  transition: background-position 300ms, color 300ms ease;
+  height: 60px;
+  padding-left: 8px;
+  padding-top: 4px;
+  color: white;
+  width: 15%;
+  transition: all 1s ease-in-out;
+}
+/* line 146, main.scss */
+.traingApp .studentsGrid .gridRow .mdl-cell:hover {
+  background-image: linear-gradient(to top, #b20838 51%, #bdbdbd 50%);
+  background-position: 0 100%;
+  transition: background-position 300ms, color 300ms ease;
+}
+/* line 155, main.scss */
+.traingApp .studentsGrid .gridRow .mdl-cell.user {
+  font-size: 18px;
 }

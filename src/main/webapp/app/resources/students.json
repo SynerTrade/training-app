@@ -1,57 +1,47 @@
 [
   {
-    "name": "Allec",
-    "lastName": "Watson",
-    "college": "Massachusetts Institute of Technology"
+    "id": 1,
+    "firstName": "Stela",
+    "lastName": "Popescu",
+    "faculty": "IESC",
+    "year": 1973,
+    "email": "stela.popescu@catena.ro",
+    "phone": "0711223445"
   },
   {
-    "name": "Allec1",
-    "lastName": "Watson",
-    "college": "Massachusetts Institute of Technology"
+    "id": 2,
+    "firstName": "Gigi ",
+    "lastName": "Kent",
+    "faculty": "IESC",
+    "year": 1974,
+    "email": "gigi.kent@utbv.ro",
+    "phone": "0700112334"
   },
   {
-    "name": "Allec2",
-    "lastName": "Watson",
-    "college": "Massachusetts Institute of Technology"
+    "id": 3,
+    "firstName": "Claudiu",
+    "lastName": "Serban",
+    "faculty": "ITMI",
+    "year": 2005,
+    "email": "claudiu.serban@yahoo.com",
+    "phone": "0667123456"
   },
   {
-    "name": "Allec3",
-    "lastName": "Watson",
-    "college": "Stanford University"
+    "id": 4,
+    "firstName": "Nicolae",
+    "lastName": "Iorga",
+    "faculty": "IESC",
+    "year": 1891,
+    "email": "nicolae.iorga@gov.ro",
+    "phone": "0723509123"
   },
   {
-    "name": "Allec4",
-    "lastName": "Watson",
-    "college": "Massachusetts Institute of Technology"
-  },
-  {
-    "name": "Allec5",
-    "lastName": "Watson",
-    "college": "Massachusetts Institute of Technology"
-  },
-  {
-    "name": "Allec6",
-    "lastName": "Watson",
-    "college": "Massachusetts Institute of Technology"
-  },
-  {
-    "name": "Allec",
-    "lastName": "Watson",
-    "college": "Massachusetts Institute of Technology"
-  },
-  {
-    "name": "Allec",
-    "lastName": "Watson",
-    "college": "Massachusetts Institute of Technology"
-  },
-  {
-    "name": "Allec",
-    "lastName": "Watson",
-    "college": "Massachusetts Institute of Technology"
-  },
-  {
-    "name": "Allec",
-    "lastName": "Watson",
-    "college": "Massachusetts Institute of Technology"
+    "id": 4,
+    "firstName": "Nicolae",
+    "lastName": "Iorga",
+    "faculty": "IESC",
+    "year": 1891,
+    "email": "nicolae.iorga@gov.ro",
+    "phone": "0723509123"
   }
 ]
