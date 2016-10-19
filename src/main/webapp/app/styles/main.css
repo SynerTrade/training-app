@@ -8721,7 +8721,7 @@ button.close {
 /* line 15, main.scss */
 body {
   padding: 0;
-  background-image: url("https://www.goshen.edu/wp-content/uploads/sites/11/2015/01/Wallpaper_Campus_Fall3_1920x1200.jpg");
+  background-image: url("https://wallpaperscraft.com/image/abstraction_geometry_shapes_colors_93400_1920x1080.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -8822,4 +8822,8 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+/* line 109, main.scss */
+.traingApp .mdl-layout__header {
+  background-color: #b20838;
 }
