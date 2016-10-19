@@ -20,7 +20,6 @@
     });
 
     var getStudentsData = function (options) {
-      debugger;
       $scope.students = options.data;
     };
 
