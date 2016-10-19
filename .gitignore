@@ -1,1 +1,10 @@
-# Created by .ignore support plugin (hsz.mobi)
+# ignore eclipse files
+.settings
+.classpath
+.project
+/.idea
+.iml
+# ignore maven folder
+/g3_invoice_core.iml
+/target/
+
